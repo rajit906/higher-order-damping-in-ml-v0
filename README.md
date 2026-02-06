@@ -4,7 +4,7 @@ This repository contains code for the paper [Adaptive Momentum and Nonlinear Dam
 
 
 
->**Adaptive Momentum and Nonlinear Damping for Neural Network Training**<br>
+>**[Adaptive Momentum and Nonlinear Damping in Neural Network Training](https://arxiv.org/abs/2602.00334)**<br>
 >Aikaterini Karoni, Rajit Rajpal, Benedict Leimkuhler, Gabriel Stoltz<br>
 >**Abstract:** We propose a continuous-time scheme for large-scale optimization that introduces individual, adaptive momentum coefficients regulated by the kinetic energy of each model parameter. This approach automatically adjusts to local landscape curvature to maintain stability without sacrificing convergence speed. We demonstrate that our adaptive friction can be related to cubic damping, a suppression mechanism from structural dynamics. Furthermore, we introduce two specific optimization schemes by augmenting the continuous dynamics of mSGD and Adam with a cubic damping term. Empirically, our methods demonstrate robustness and match or outperform Adam on training ViT, BERT, and GPT2 tasks where mSGD typically struggles. We further provide theoretical results establishing the exponential convergence of the proposed schemes.
 
