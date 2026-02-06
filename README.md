@@ -2,16 +2,14 @@
 
 This repository contains code for the paper [Adaptive Momentum and Nonlinear Damping in Neural Network Training](https://arxiv.org/abs/2602.00334). 
 
-```
+
+
 **Adaptive Momentum and Nonlinear Damping for Neural Network Training**
 
-*Aikaterini Karoni, Rajit Rajpal, Benedict Leimkuhler, Gabriel Stoltz*
-
-We propose a continuous-time scheme for large-scale optimization that introduces individual, adaptive momentum coefficients regulated by the kinetic energy of each model parameter. This approach automatically adjusts to local landscape curvature to maintain stability without sacrificing convergence speed. We demonstrate that our adaptive friction can be related to cubic damping, a suppression mechanism from structural dynamics. Furthermore, we introduce two specific optimization schemes by augmenting the continuous dynamics of mSGD and Adam with a cubic damping term. Empirically, our methods demonstrate robustness and match or outperform Adam on training ViT, BERT, and GPT2 tasks where mSGD typically struggles. We further provide theoretical results establishing the exponential convergence of the proposed schemes.
-```
+> Aikaterini Karoni, Rajit Rajpal, Benedict Leimkuhler, Gabriel Stoltz<br>
+>**Abstract:** We propose a continuous-time scheme for large-scale optimization that introduces individual, adaptive momentum coefficients regulated by the kinetic energy of each model parameter. This approach automatically adjusts to local landscape curvature to maintain stability without sacrificing convergence speed. We demonstrate that our adaptive friction can be related to cubic damping, a suppression mechanism from structural dynamics. Furthermore, we introduce two specific optimization schemes by augmenting the continuous dynamics of mSGD and Adam with a cubic damping term. Empirically, our methods demonstrate robustness and match or outperform Adam on training ViT, BERT, and GPT2 tasks where mSGD typically struggles. We further provide theoretical results establishing the exponential convergence of the proposed schemes.
 
 Each folder contains one of six experiments shown in the paper. `optimizers/` contains implementations of our optimizers CD, iKFAD, and CADAM in addition to our custom implementation of LDHD. `scripts/` contains scripts for some experiments to run the best hyperparameter configuration experiments over a few seeds. It has scripts for all except `nano/` and `owt/` which have scripts within those folders for sweeping and running best hyperparameter configurations. Within each folder, there is an environment.yml file to set up conda environments for the associated experiment.
-
 
 ### Cite
 ```
