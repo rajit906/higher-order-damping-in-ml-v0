@@ -1,8 +1,6 @@
 # Code For Reproducing Paper "Adaptive Momentum and Nonlinear Damping in Neural Network Training".
 
-This repository contains code for the paper [Adaptive Momentum and Nonlinear Damping in Neural Network Training](https://arxiv.org/abs/2602.00334). 
-
-
+This repository contains code for the paper:
 
 >**[Adaptive Momentum and Nonlinear Damping in Neural Network Training](https://arxiv.org/abs/2602.00334)**<br>
 >Aikaterini Karoni, Rajit Rajpal, Benedict Leimkuhler, Gabriel Stoltz<br>
