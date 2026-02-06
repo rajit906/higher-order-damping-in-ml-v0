@@ -1,17 +1,18 @@
 # Code For Reproducing Paper "Adaptive Momentum and Nonlinear Damping in Neural Network Training".
 
-This repository contains code for the paper [Adaptive Momentum and Nonlinear Damping in Neural Network Training](link.com). Each folder contains one of six experiments shown in the paper. `optimizers/` contains implementations of our optimizers CD, iKFAD, and CADAM in addition to our custom implementation of LDHD. `scripts/` contains scripts for some experiments to run the best hyperparameter configuration experiments over a few seeds. It has scripts for all except `nano/` and `owt/` which have scripts within those folders for sweeping and running best hyperparameter configurations. Within each folder, there is an environment.yml file to set up conda environments for the associated experiment.
+This repository contains code for the paper [Adaptive Momentum and Nonlinear Damping in Neural Network Training]([link.com](https://arxiv.org/abs/2602.00334)). Each folder contains one of six experiments shown in the paper. `optimizers/` contains implementations of our optimizers CD, iKFAD, and CADAM in addition to our custom implementation of LDHD. `scripts/` contains scripts for some experiments to run the best hyperparameter configuration experiments over a few seeds. It has scripts for all except `nano/` and `owt/` which have scripts within those folders for sweeping and running best hyperparameter configurations. Within each folder, there is an environment.yml file to set up conda environments for the associated experiment.
 
 
 ### Cite
 ```
-@misc{smallbatch,
-  title={Adaptive Momentum and Nonlinear Damping for Neural Network Training}, 
-  author={Katerina Karoni and Rajit Rajpal and Benedict Leimkuhler and Gabriel Stoltz},
-  year={2026},
-  eprint={...},
-  archivePrefix={arXiv},
-  primaryClass={...}
+@misc{karoni2026adaptivemomentumnonlineardamping,
+      title={Adaptive Momentum and Nonlinear Damping for Neural Network Training}, 
+      author={Aikaterini Karoni and Rajit Rajpal and Benedict Leimkuhler and Gabriel Stoltz},
+      year={2026},
+      eprint={2602.00334},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2602.00334}, 
 }
 ```
 
