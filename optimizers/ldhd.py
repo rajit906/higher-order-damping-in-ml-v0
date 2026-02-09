@@ -3,12 +3,11 @@ from torch.optim import Optimizer
 
 class LDHD(Optimizer):
     """
-    LDHD (Linearly Dissipative Hamiltonian Dynamics) - Refactored for Drop-in Replacement
+    LDHD (Linearly Dissipative Hamiltonian Dynamics)
     
-    Structure matches 'cubic_damping_opt':
     1. Hyperparameters stored as 1-element Tensors on 'device'.
     2. Initialization mimics PyTorch SGD (p = grad at step 0).
-    3. Splitting scheme: B-D-A (Matches PyTorch mSGD per PDF [cite: 39]).
+    3. Splitting scheme: B-D-A (Matches PyTorch mSGD).
     """
 
     def __init__(self, params, h=0.001, gamma=0.1, device='cuda'):
