@@ -10,14 +10,13 @@ Each folder contains one of six experiments shown in the paper. `optimizers/` co
 
 ### Cite
 ```
-@misc{karoni2026adaptivemomentumnonlineardamping,
-      title={Adaptive Momentum and Nonlinear Damping for Neural Network Training}, 
-      author={Aikaterini Karoni and Rajit Rajpal and Benedict Leimkuhler and Gabriel Stoltz},
-      year={2026},
-      eprint={2602.00334},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2602.00334}, 
+@inproceedings{
+karoni2026adaptive,
+title={Adaptive Momentum and Nonlinear Damping for Neural Network Training},
+author={Aikaterini Karoni and Rajit Rajpal and Benedict J. Leimkuhler and Gabriel Stoltz},
+booktitle={Forty-third International Conference on Machine Learning},
+year={2026},
+url={https://openreview.net/forum?id=JWWpV4StVf}
 }
 ```
 
