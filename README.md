@@ -1,4 +1,4 @@
-# Code For Reproducing Paper "Adaptive Momentum and Nonlinear Damping in Neural Network Training".
+# Code For Reproducing Paper "Adaptive Momentum and Nonlinear Damping in Neural Network Training" [ICML 2026].
 
 This repository contains code for the paper:
 
